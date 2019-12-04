@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body{
+    background-color: white;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    font-family: lato;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100vw;
+    height: 100vh;
+    background: #587ba0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    width: 300px;
+    background: #fff;
+    font-family: Lato;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-top: 10px solid lightblue;
+    border-radius: 5%;
+}
+
+.form-box .form-input{
+    border: none;
+    background: #eee;
+    width: 95%;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.form-box .form-btn{
+    border: none;
+    background:#0078d7;
+    width: 95%;
+    height: 40px;
+    font-size: large;
+    color: #fff;
+}
+
+.form-box a{
+    color: #1ba39c;
+    text-decoration: none;
+}
+
+.form-box a:visited{
+    color: #1ba39c;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 340px){
+    .form-box{
+        width: 100vw;
+        height: 100vh;
+    }
+}
